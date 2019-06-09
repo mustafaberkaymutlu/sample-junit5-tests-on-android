@@ -15,7 +15,6 @@ class FactorialCalculator {
             return BigInteger.ONE
         }
 
-        return BigInteger.valueOf(n.toLong()) * calculate(n - 1)
+        return n.toBigInteger() * calculate(n - 1)
     }
-
 }

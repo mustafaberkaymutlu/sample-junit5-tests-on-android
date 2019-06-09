@@ -2,6 +2,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+// add test dependencies:
+apply from: "../commonBuild/test.gradle"
+
 android {
     compileSdkVersion Versions.compileSdk
 
@@ -13,8 +16,6 @@ android {
 
         versionCode Versions.appVersionCode
         versionName Versions.appVersionName
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -29,8 +30,4 @@ dependencies {
     implementation Libraries.kotlinStdLib
     implementation Libraries.appCompat
     implementation Libraries.ktxCore
-
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }

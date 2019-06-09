@@ -1,0 +1,11 @@
+apply plugin: "de.mannodermaus.android-junit5"
+
+dependencies {
+    testImplementation Libraries.junitJupiterApi
+    testImplementation Libraries.junitJupiterParams
+    testRuntimeOnly Libraries.junitJupiterEngine
+
+    testImplementation Libraries.mockito
+    testImplementation Libraries.mockitoKotlin
+    testImplementation Libraries.assertj
+}

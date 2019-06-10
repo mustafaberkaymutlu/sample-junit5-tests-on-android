@@ -7,3 +7,7 @@ A samples repository to show JUnit5 parameterised tests on Android.
 Read the JUnit5 documentation [here](https://junit.org/junit5/docs/current/user-guide/).
 
 Check out `mannodermaus`'s [android-junit5](https://github.com/mannodermaus/android-junit5) Gradle plugin.
+
+- Sample parameterised test with CSV sources is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorCsvSourceTest.kt).
+- Sample parameterised test with method sources is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorMethodSourceTest.kt).
+- Sample nested test is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorNestedTest.kt).

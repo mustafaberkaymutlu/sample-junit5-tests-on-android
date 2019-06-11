@@ -11,6 +11,7 @@ object Versions {
     const val kotlin = "1.3.31"
     const val ktxCore = "1.0.2"
     const val appCompat = "1.0.2"
+    const val ktlint = "0.33.0"
 
     // test
     const val junit5 = "1.4.2.0"
@@ -28,6 +29,8 @@ object Libraries {
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktxCore}"
 
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
+
+    const val ktlint = "com.pinterest:ktlint:${Versions.ktlint}"
 
     // test
     const val junitGradlePlugin = "de.mannodermaus.gradle.plugins:android-junit5:${Versions.junit5}"

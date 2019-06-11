@@ -24,5 +24,4 @@ internal class FactorialCalculatorCsvSourceTest {
 
         assertEquals(expected, actual)
     }
-
 }

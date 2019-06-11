@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.MethodSource
 import java.math.BigInteger
-import java.util.*
+import java.util.Arrays
 
 internal class FactorialCalculatorMethodSourceTest {
 
@@ -38,5 +38,4 @@ internal class FactorialCalculatorMethodSourceTest {
         val n: Int,
         val expected: BigInteger
     )
-
 }

@@ -18,7 +18,6 @@ internal class FactorialCalculatorNestedTest {
         fun `should return correct factorial`() {
             assertEquals(BigInteger.ONE, calculator.calculate(1))
         }
-
     }
 
     @DisplayName("given large n value")
@@ -32,6 +31,5 @@ internal class FactorialCalculatorNestedTest {
 
             assertEquals(expected, calculator.calculate(n))
         }
-
     }
 }

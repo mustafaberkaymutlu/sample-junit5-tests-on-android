@@ -11,3 +11,13 @@ Check out `mannodermaus`'s [android-junit5](https://github.com/mannodermaus/andr
 - Sample parameterised test with CSV sources is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorCsvSourceTest.kt).
 - Sample parameterised test with method sources is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorMethodSourceTest.kt).
 - Sample nested test is [here](/app/src/test/java/net/epictimes/junit5samples/factorialcalculator/FactorialCalculatorNestedTest.kt).
+
+## Formatting
+[ktlint](https://github.com/pinterest/ktlint) is used to keep the proper formatting. 
+
+Run this to install `ktlint` using brew:
+`brew install ktlint`
+
+Then in the Android Studio run the following command: 
+
+`ktlint --apply-to-idea-project --android`

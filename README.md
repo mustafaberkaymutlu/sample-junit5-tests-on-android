@@ -1,8 +1,8 @@
 # JUnit5 Samples on Android
 
-A samples repository to show JUnit5 parameterised tests on Android.
+A repository to demonstrate JUnit5 parameterized tests on Android.
 
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/mustafaberkaymutlu)
+The complementary article is [here](https://medium.com/swlh/how-to-write-junit5-parameterised-tests-on-android-bdf9ec8dc8c4).
 
 Read the JUnit5 documentation [here](https://junit.org/junit5/docs/current/user-guide/).
 

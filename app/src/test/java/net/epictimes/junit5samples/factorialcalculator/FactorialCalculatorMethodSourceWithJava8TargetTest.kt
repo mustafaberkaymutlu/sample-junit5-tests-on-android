@@ -19,6 +19,14 @@ internal class FactorialCalculatorMethodSourceWithJava8TargetTest {
         assertEquals(expected, actual)
     }
 
+    @ParameterizedTest(name = "{index} ==> given {0} should return {1}")
+    @MethodSource("arguments")
+    fun `given n input should return the correct factorial (custom named test)`(n: Int, expected: BigInteger) {
+        val actual = calculator.calculate(n)
+
+        assertEquals(expected, actual)
+    }
+
     private companion object {
 
         @JvmStatic
